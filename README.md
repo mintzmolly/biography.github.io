@@ -1,2 +1,2 @@
-# biography.github.io
+# mintzmolly.github.io
 FINAL
