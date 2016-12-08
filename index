@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOLLY MINTZ</title>
+
+	<!-- Style CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans|Racing+Sans+One">
+
+	<!-- JavaScript -->
+		<link rel="stylesheet" type="text/js" href="javascript.js">
+
+	<!-- Reset CSS -->
+		<link rel="stylesheet" type="text/css" href="reset.css">
+
+</head>
+
+<body>
+
+	<!-- Background Video -->
+		<div class="js-video [vimeo, widescreen]">
+			<iframe src="https://player.vimeo.com/video/112673122?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allowfullscreen playsinline autoplay loop></iframe>
+		</div>
+
+	<!-- Title -->
+	<div id="title" style="position: relative; z-index: 1">
+		<h1><a href="index.html"><em><b>Molly Mintz</em></b></a></h1>
+	</div>
+
+	<!-- Navigation -->	
+	<div id="nav" style="position: absolute; z-index: 1">
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</li><li><a href="https://www.pullthisoff.com">BLOG</a></li>
+				<li><a href="/https://www.instagram.com/mintzmolly/">INSTAGRAM</a></li>
+				<li><a href="https://www.linkedin.com/in/mollymintz">LINKEDIN</a></li>
+				<li><a href="https://twitter.com/mintzmolly">TWITTER</a></li>
+				<li><a href="writingsample.html">WRITING SAMPLE</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Landing Page -->
+	<div id="molly" style="position: relative; z-index: 2;">
+		<h2>ABOUT</h2>
+			<p><h3><i>Video filmed by Madeline Hicks, 2014</i></h3></p>
+				<p>Molly Mintz is studying Journalism + Design and Global Studies at The New School in Manhattan. Her interests in crime, security, and injustice; fashion, art, and culture; women's and human rights; politics; and the environment have propelled her into a multitude of different fields. With a creative passion for perpetuating societal change, Molly strives to grow as a journalist.</p>
+					<button><a href="contact.html">CONTACT</a></button>
+	</div>
+
+</body>
+
+</html> 
