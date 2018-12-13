@@ -41,7 +41,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/robertdowney/rittenhouse1520.jpg') no-repeat;
+ background: url('https://images-na.ssl-images-amazon.com/images/I/81zU6vaCiFL._SL1370_.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -68,7 +68,7 @@ h1 {
 
 a {
   display: inline-block;
-  color: #fff;
+  color: black;
   text-decoration: none;
   background:rgba(0,0,0,0.5);
   padding: .5rem;
@@ -81,7 +81,7 @@ a:hover{
   div{width:70%;} 
 }
 @media screen and (max-device-width: 800px) {
-  html { background: url(https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/robertdowney/rittenhouse1520.jpg) #000 no-repeat center center fixed; }
+  html { background: url(https://images-na.ssl-images-amazon.com/images/I/81zU6vaCiFL._SL1370_.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
 
