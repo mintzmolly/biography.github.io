@@ -1,245 +1,74 @@
-nav {
-  position: absolute;
-  color: white;
-}
-
-#molly { 
-  font-weight:100; 
-  background: rgba(0,0,0,0.3);
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  float: right;
-  font-size: 1.2rem;
-}
-
-a {
-  display: inline-block;
-  color: #FFFF00;
-  text-decoration: none;
-  background:rgba(0,0,0,0.5);
-  padding: .5rem;
-  transition: .6s background; 
-}
-a:hover{
-  background:rgba(0,0,0,0.9);
-
-#body {
-  margin: 5%;
-  background: #000; 
-}
-
-#title { 
-  	font-family: 'EB Garamond', serif;
+h1 { 
+	font-family: "Alfa Slab One", sans-serif;
 	font-size: 75px;
 	text-shadow: 10px;
 	text-align: left;
-	text-underline-position: left; 
+	text-underline-position: left; }
 
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
-}
-
-#molly h3 { 
-	font-family: "Josefin Sans", sans-serif, cursive, bold, italic;
-	font-size: 35px;
-	text-shadow: 10px; 
-}
-
-#molly p, button { 
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 20px;
-	text-shadow: 10px; 
-}
-
-#molly h2 { 
-  font-family: "Anton", sans-serif, cursive, bold, italic;
-  font-size: 35px;
-  text-shadow: 10px; 
-}
-
-ul, li {
-  list-style-type: none;
-}
-
-.js-video { 
-  height: 0;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-.js-video.widescreen {
-  padding-bottom: 56.34%;
-}
-
-.js-video.vimeo {
-  padding-top: 0;
-
-}
-
-.js-video embed, .js-video iframe, .js-video object, .js-video video {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-}
-
-
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
-
-}
-
-@media screen and (max-device-width: 800px) {
-  #bgvid { display: none; }
-}
-
-@media (max-width: 800px) {
-		#email h1 { 
-			margin-top: 10%;
-			font-family: "Racing Sans One", cursive yellow;
-			font-size: 25px;
-			text-align: center;
-			text-shadow: 10px;
-			width: 90%;
-		} 
-}  font-weight:100; 
-  background: rgba(0,0,0,0.3);
-  color: yellow;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  float: right;
-  font-size: 1.2rem;
-}
-
-#molly button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #FFFF00;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-#molly button:hover { 
-   background: rgba(0,0,0,0.5);
-}
-
-a {
-  display: inline-block;
-  color: #FFFF00;
-  text-decoration: none;
-  background:rgba(0,0,0,0.5);
-  padding: .5rem;
-  transition: .6s background; 
-}
-a:hover{
-  background:rgba(0,0,0,0.9);
-}
-
-nav {
-  list-style: left;
-  font-size: 15px;
-  font-family: "Anton", cursive;
-  font-color: #FFFF00;
-}
-
-body {
-  margin: 5%;
-  background: #000; 
-}
-
-#nav h1 { 
-  font-family: "Racing Sans One", cursive, yellow;
-	font-size: 75px;
-	text-shadow: 10px;
-	text-align: left;
-	text-underline-position: left; 
-
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
-}
-
-
-#molly h2 { 
-	font-family: "Anton", sans-serif;
+h2 { 
+	font-family: "Alfa Slab One", sans-serif;
 	font-size: 50px;
 	text-shadow: 10px; }
 
-#molly h3 { 
-	font-family: "Josefin Sans", sans-serif, cursive, bold, italic;
+h3 { 
+	font-family: "Economica", sans-serif, bold, italic;
 	font-size: 35px;
-	text-shadow: 10px; 
-}
+	text-shadow: 10px; }
 
-#molly p, button { 
-	font-family: "Josefin Sans", sans-serif;
+
+p, button { 
+	font-family: "Economica", sans-serif;
 	font-size: 20px;
-	text-shadow: 10px; 
+	text-shadow: 10px; }
+
+nav {
+	list-style: top;
+	font-size: 25px;
+	font-family: "Economica", sans-serif;
 }
 
-ul, li {
-  list-style-type: none;
+body {
+  margin: 0;
+  background: #000; 
 }
-
-.js-video { 
-  height: 0;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  margin-bottom: 10px;
-
-#nav {
-  position: absolute;
-  color: yellow;
-  font-family: "Anton", cursive;
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/robertdowney/rittenhouse1520.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
 }
 
 #molly { 
   font-weight:100; 
   background: rgba(0,0,0,0.3);
-  color: yellow;
+  color: white;
   padding: 2rem;
   width: 33%;
   margin:2rem;
   float: right;
   font-size: 1.2rem;
 }
-
-#molly button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #FFFF00;
-  font-family: "Anton" sans-serif,
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-#molly button:hover { 
-   background: rgba(0,0,0,0.5);
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
 }
 
 a {
   display: inline-block;
-  color: #FFFF00;
+  color: #fff;
   text-decoration: none;
   background:rgba(0,0,0,0.5);
   padding: .5rem;
@@ -248,102 +77,19 @@ a {
 a:hover{
   background:rgba(0,0,0,0.9);
 }
-
-#nav {
-  list-style: left;
-  font-size: 15px;
-  font-family: "Anton", cursive;
-  font-color: #FFFF00;
-}
-
-#body {
-  margin: 5%;
-  background: #000; 
-}
-
-#title h1 { 
-  font-family: "Racing Sans One", cursive, yellow;
-	font-size: 75px;
-	text-shadow: 10px;
-	text-align: left;
-	text-underline-position: left; 
-
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
-}
-
-#molly h3 { 
-	font-family: "Josefin Sans", sans-serif, cursive, bold, italic;
-	font-size: 35px;
-	text-shadow: 10px; 
-}
-
-#molly p, button { 
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 20px;
-	text-shadow: 10px; 
-}
-
-#molly h2 { 
-  font-family: "Anton", sans-serif, cursive, bold, italic;
-  font-size: 35px;
-  text-shadow: 10px; 
-}
-
-ul, li {
-  list-style-type: none;
-}
-
-.js-video { 
-  height: 0;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-.js-video.widescreen {
-  padding-bottom: 56.34%;
-}
-
-.js-video.vimeo {
-  padding-top: 0;
-
-}
-
-.js-video embed, .js-video iframe, .js-video object, .js-video video {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-}
-
-
 @media screen and (max-width: 500px) { 
   div{width:70%;} 
-
 }
-
 @media screen and (max-device-width: 800px) {
+  html { background: url(https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/robertdowney/rittenhouse1520.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
 
-#email h1 { 
-	margin-top: 10%;
-	font-family: "Racing Sans One", cursive yellow;
-	font-size: 125px;
-	text-align: center;
-	text-shadow: 10px; 
-}
 
 @media (max-width: 800px) {
 		#email h1 { 
 			margin-top: 10%;
-			font-family: "Racing Sans One", cursive yellow;
+			font-family: "Alfa Slab One", sans-serif;
 			font-size: 25px;
 			text-align: center;
 			text-shadow: 10px;
