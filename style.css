@@ -1,36 +1,17 @@
 nav {
   position: absolute;
-  color: yellow;
-  font-family: "Anton", cursive;
+  color: white;
 }
 
 #molly { 
   font-weight:100; 
   background: rgba(0,0,0,0.3);
-  color: yellow;
+  color: white;
   padding: 2rem;
   width: 33%;
   margin:2rem;
   float: right;
   font-size: 1.2rem;
-}
-
-#molly button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #FFFF00;
-  font-family: "Anton" sans-serif,
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-#molly button:hover { 
-   background: rgba(0,0,0,0.5);
 }
 
 a {
@@ -43,14 +24,6 @@ a {
 }
 a:hover{
   background:rgba(0,0,0,0.9);
-}
-
-#nav {
-  list-style: left;
-  font-size: 15px;
-  font-family: "Anton", cursive;
-  font-color: #FFFF00;
-}
 
 #body {
   margin: 5%;
@@ -58,7 +31,7 @@ a:hover{
 }
 
 #title { 
-  font-family: "Racing Sans One", cursive, yellow;
+  	font-family: 'EB Garamond', serif;
 	font-size: 75px;
 	text-shadow: 10px;
 	text-align: left;
@@ -126,14 +99,6 @@ ul, li {
 
 @media screen and (max-device-width: 800px) {
   #bgvid { display: none; }
-}
-
-#email h1 { 
-	margin-top: 10%;
-	font-family: "Racing Sans One", cursive yellow;
-	font-size: 125px;
-	text-align: center;
-	text-shadow: 10px; 
 }
 
 @media (max-width: 800px) {
